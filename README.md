@@ -84,22 +84,23 @@ This is a React and Flask-based Message Board application that allows users to p
 
 ## File Structure
 
-├── client/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── AddMessageForm.js
-│ │ │ ├── DeleteMessageButton.js
-│ │ │ ├── MessageForm.js
-│ │ │ ├── Messages.js
-│ │ │ ├── PluralityConnect.js
-│ │ │ ├── SubstreamsData.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── package.json
-├── app.py
-├── requirements.txt
-└── README.md
+message-board-app/
+├── client/ # Frontend React application
+│ ├── public/ # Public assets
+│ ├── src/ # Source files
+│ │ ├── components/ # React components
+│ │ │ ├── AddMessageForm.js # Component for adding a new message
+│ │ │ ├── DeleteMessageButton.js # Component for deleting a message
+│ │ │ ├── MessageForm.js # Form for submitting messages
+│ │ │ ├── Messages.js # Displays the list of messages
+│ │ │ ├── PluralityConnect.js # Component for integrating Plurality Connect
+│ │ │ ├── SubstreamsData.js # Component for fetching and displaying Pinax API data
+│ │ ├── App.js # Main App component
+│ │ ├── index.js # Entry point of the React application
+│ ├── package.json # npm package configuration
+├── app.py # Flask backend application
+├── requirements.txt # Python package dependencies
+└── README.md # Project documentation
 
 
 ### Frontend
