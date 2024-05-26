@@ -12,9 +12,13 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80px;
+    margin: 0px auto;
+    padding: 33px;
 }
 
 h1 {
@@ -45,22 +49,23 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #b3a400;
 }
 
 .message {
-    background-color: #fff;
+    background-color: #453d99;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .message p {
-    margin-bottom: 5px;
+    margin: 15px;
 }
 
 .message p strong {
